@@ -1,0 +1,11 @@
+ul li {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+ul li a{
+    --tw-text-opacity: 1;
+    color: rgb(107 33 168 / var(--tw-text-opacity));
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
