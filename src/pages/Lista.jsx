@@ -7,7 +7,7 @@ const Lista = () => {
         <h1 className='text-5xl mb-5'>Lista de Exercícios</h1>
         <ul>
             <li>1º - <a href="/search">Search Filter</a></li>
-            <li>2º - <a href=""></a></li>
+            <li>2º - <a href="/api">Api Rick and Morty</a></li>
         </ul>
     </div>
   )
