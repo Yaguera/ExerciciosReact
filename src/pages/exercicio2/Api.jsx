@@ -49,8 +49,9 @@ const Api = () => {
                     <h1 className='font-bold text-3xl'>{apiData.name}</h1>    
                     <p><strong>Status:</strong> {apiData.status}</p>
                     <p><strong>Species:</strong> {apiData.species}</p>
+                    <p><strong>Origin:</strong> {apiData.origin.name}</p>
                     <p><strong>Gender:</strong> {apiData.gender}</p>
-                    <p><strong>Aparece em {apiData.episode.length} {apiData.episode.length > 1 ? 'episódios' : 'episódio'}</strong></p>
+                    <p><strong>Appears in {apiData.episode.length} {apiData.episode.length > 1 ? 'episodes' : 'episode'}</strong></p>
 
                 </div>
             ) }
