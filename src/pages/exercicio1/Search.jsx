@@ -28,7 +28,7 @@ const Search = () => {
       };
     
       return (
-        <div className='m-16 flex justify-center items-center '>
+        <div className='m-16 flex justify-center items-center z-10 '>
             <div className="p-6 app pt-5 border-2 max-w-80">
               <div>
                 Search: <input className='border-2' name="query" type="text" onChange={handleSearch} />
